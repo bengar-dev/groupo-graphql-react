@@ -1,0 +1,33 @@
+type Query {
+    users: [User!]
+    user(id: ID!): User
+    posts: [Post!]
+}
+
+type Mutation {
+    createUser(email: String!, password: String!, firstname: String!, lastname: String!): User
+    signInUser(email: String!, password: String!) : Token
+    editUser(id: ID!, email: String!, firstname: String!, lastname: String!): User
+    createPost(title: String!, content: String!, authorid: String!): Post
+}
+
+type User  {
+    id: ID!
+    email: String!
+    password: String!
+    firstname: String!
+    lastname: String!
+    avatar: String!
+}
+
+type Token {
+    token: String!
+    userId: String!
+}
+
+type Post {
+    id: ID!
+    title: String!
+    content: String!
+    author: User
+}

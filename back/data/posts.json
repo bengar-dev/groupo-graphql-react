@@ -1,0 +1,15 @@
+[
+  {
+    "id": "HUoyOvlz7Ie8KOPaj6eMJ",
+    "title": "Hello world",
+    "content": "Contenu de ma super news",
+    "author": {
+      "id": "0cXxzxBlXW18twom9OrVy",
+      "email": "benjamin@demo.fr",
+      "firstname": "Benjamin",
+      "lastname": "Zebi",
+      "avatar": "https://www.pphfoundation.ca/wp-content/uploads/2018/05/default-avatar-600x600.png",
+      "hash": "$2b$10$64ej30m/pYX2.wrHb.nlNesxTQT7/uECTZLYQgTV7qvj8yZodwXsi"
+    }
+  }
+]
